@@ -293,7 +293,7 @@ The React frontend for this project is maintained separately.
 
 <div align="center">
 
-<a href="https://github.com/Neahans/smart-learning-frontend">
+
 
 <img src="https://img.shields.io/badge/⚛️%20Smart%20Learning%20Frontend-View%20Repository-866BE8?style=for-the-badge" alt="Smart Learning Frontend Repository" />
 
