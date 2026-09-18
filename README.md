@@ -145,22 +145,7 @@ progress
 image
 ```
 
-### Example
 
-```json
-{
-  "id": 1,
-  "title": "Python Programming",
-  "description": "Learn Python programming from basics to practical concepts.",
-  "instructor": "Arun Kumar",
-  "category": "Programming",
-  "level": "Beginner",
-  "modules_count": 8,
-  "students_count": 45,
-  "progress": 75,
-  "image": ""
-}
-```
 
 ---
 
