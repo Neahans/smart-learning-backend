@@ -98,7 +98,9 @@ The backend is being developed using **Django REST Framework (DRF)** to provide 
                           │
                           ▼
                     🗄️ DATABASE
+```
 </div>
+
 📚 Current API
 Courses API
 
@@ -317,4 +319,4 @@ The React frontend for this project is maintained separately.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer" />
 
-</div> ```
+</div> 
