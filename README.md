@@ -301,7 +301,7 @@ The React frontend for this project is maintained separately.
 
 <br><br>
 
-🔗 **Smart Learning Frontend Repository**
+
 
 </div>
 
