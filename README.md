@@ -3,16 +3,16 @@
 # 🐍 Smart Learning Backend
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=900&color=866BE8&center=true&vCenter=true&width=900&lines=Welcome+to+Smart+Learning+Backend+%F0%9F%92%9C;Django+%E2%80%A2+REST+API+%E2%80%A2+Database+%F0%9F%90%8D;Powering+the+Smart+Learning+Platform+%E2%9C%A8;Learn+%E2%80%A2+Build+%E2%80%A2+Grow+%F0%9F%8C%B8"
-  alt="Typing Animation"
+src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=30&pause=900&color=866BE8&center=true&vCenter=true&width=900&lines=Welcome+to+Smart+Learning+Backend+%F0%9F%92%9C;Django+%E2%80%A2+REST+API+%E2%80%A2+Database+%F0%9F%90%8D;Powering+the+Smart+Learning+Platform+%E2%9C%A8;Learn+%E2%80%A2+Build+%E2%80%A2+Grow+%F0%9F%8C%B8"
+alt="Typing Animation"
 />
 
 <br>
 
 <img
-  src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
-  width="350"
-  alt="Coding GIF"
+src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
+width="350"
+alt="Coding GIF"
 />
 
 <br><br>
@@ -26,63 +26,60 @@
 <br><br>
 
 <img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=180&section=header&text=SMART%20LEARNING%20BACKEND&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=55"
-  width="100%"
-  alt="Smart Learning Backend Header"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=180&section=header&text=SMART%20LEARNING%20BACKEND&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=55"
+width="100%"
+alt="Smart Learning Backend Header"
 />
 
 </div>
 
 ---
 
-# 🌸 About Smart Learning Backend
+## 🌸 About Smart Learning Backend
 
 The **Smart Learning Backend** is a Django-based backend for the Smart Learning Management System.
 
 It provides the REST API layer used by the React frontend and manages learning-related data such as:
 
-🎓 Students
-
-👩🏻‍🏫 Mentors
-
-📚 Courses
-
-🧩 Modules
-
-📝 Notes
-
-🔓 Module Unlock Requests
+* 🎓 Students
+* 👩🏻‍🏫 Mentors
+* 📚 Courses
+* 🧩 Modules
+* 📝 Notes
+* 🔓 Module Unlock Requests
 
 The backend is being developed using **Django REST Framework (DRF)** to provide API-based communication between the frontend and backend.
 
 ---
 
-# ✨ Main Features
+## ✨ Main Features
 
 <div align="center">
 
-| Feature | Status |
-|:---|:---:|
-| 🐍 Django Project | ✅ |
-| ⚙️ Django REST Framework | ✅ |
-| 📚 Course Model | ✅ |
-| 🔗 Course API | ✅ |
-| 🔄 ViewSets | ✅ |
-| 🚦 API Routers | ✅ |
-| 🌐 CORS Configuration | ✅ |
-| 📡 React API Connection | ✅ |
-| 🧩 Module API | 🔄 |
-| 📝 Notes API | ⬜ |
-| 🔓 Unlock Request API | ⬜ |
-| 🔐 JWT Authentication | ⬜ |
+| Feature                  | Status |
+| :----------------------- | :----: |
+| 🐍 Django Project        |    ✅   |
+| ⚙️ Django REST Framework |    ✅   |
+| 📚 Course Model          |    ✅   |
+| 🔗 Course API            |    ✅   |
+| 🔄 ViewSets              |    ✅   |
+| 🚦 API Routers           |    ✅   |
+| 🌐 CORS Configuration    |    ✅   |
+| 📡 React API Connection  |    ✅   |
+| 🧩 Module API            |   🔄   |
+| 📝 Notes API             |    ⬜   |
+| 🔓 Unlock Request API    |    ⬜   |
+| 🔐 JWT Authentication    |    ⬜   |
 
 </div>
 
 ---
 
-# 🏗️ Backend Architecture
+## 🏗️ Backend Architecture
 
-``
+<div align="center">
+
+```text
                   ⚛️ REACT FRONTEND
                           │
                           │ Axios
@@ -101,24 +98,42 @@ The backend is being developed using **Django REST Framework (DRF)** to provide 
                           │
                           ▼
                     🗄️ DATABASE
-📚 Current API
-Courses API
+```
 
-The current backend provides a Courses API through Django REST Framework.
+</div>
 
-Endpoint
+---
+
+## 📚 Current API
+
+### Courses API
+
+The current backend provides a **Courses API** through Django REST Framework.
+
+### Endpoint
+
+```text
 http://127.0.0.1:8000/api/courses/
-Available Operations
-GET     /api/courses/
-POST    /api/courses/
-GET     /api/courses/<id>/
-PUT     /api/courses/<id>/
-PATCH   /api/courses/<id>/
-DELETE  /api/courses/<id>/
-🧩 Course Model
+```
 
-The current Course model contains:
+### Available Operations
 
+| Method | Endpoint             | Description               |
+| :----: | :------------------- | :------------------------ |
+|   GET  | `/api/courses/`      | List all courses          |
+|  POST  | `/api/courses/`      | Create a course           |
+|   GET  | `/api/courses/<id>/` | Retrieve a course         |
+|   PUT  | `/api/courses/<id>/` | Update a course           |
+|  PATCH | `/api/courses/<id>/` | Partially update a course |
+| DELETE | `/api/courses/<id>/` | Delete a course           |
+
+---
+
+## 🧩 Course Model
+
+The current `Course` model contains:
+
+```text
 title
 description
 instructor
@@ -128,9 +143,11 @@ modules_count
 students_count
 progress
 image
+```
 
-Example:
+### Example
 
+```json
 {
   "id": 1,
   "title": "Python Programming",
@@ -143,24 +160,41 @@ Example:
   "progress": 75,
   "image": ""
 }
-🛠️ Tech Stack
+```
+
+---
+
+## 🛠️ Tech Stack
+
 <div align="center">
-Backend
+
+### Backend
+
 <img src="https://skillicons.dev/icons?i=python,django,sqlite" alt="Backend Technologies">
 
 <br><br>
 
-Development Tools
-<img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Development Tools"> </div>
-Technologies Used
-🐍 Python
-🌿 Django
-🔗 Django REST Framework
-🗄️ SQLite
-🌐 django-cors-headers
-🔎 django-filter
-📡 REST APIs
-🏗️ Project Structure
+### Development Tools
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Development Tools">
+
+</div>
+
+### Technologies Used
+
+* 🐍 Python
+* 🌿 Django
+* 🔗 Django REST Framework
+* 🗄️ SQLite
+* 🌐 django-cors-headers
+* 🔎 django-filter
+* 📡 REST APIs
+
+---
+
+## 🏗️ Project Structure
+
+```text
 smart_learning/
 │
 ├── learning/
@@ -186,32 +220,71 @@ smart_learning/
 ├── manage.py
 ├── requirements.txt
 └── README.md
-⚙️ Setup
-1️⃣ Clone the repository
+```
+
+---
+
+## ⚙️ Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
 git clone https://github.com/Neahans/smart-learning-backend.git
-2️⃣ Open the project
+```
+
+### 2️⃣ Open the Project
+
+```bash
 cd smart-learning-backend
-3️⃣ Create a virtual environment
+```
+
+### 3️⃣ Create a Virtual Environment
+
+```bash
 python -m venv venv
-4️⃣ Activate the virtual environment
-Windows PowerShell
+```
+
+### 4️⃣ Activate the Virtual Environment
+
+#### Windows PowerShell
+
+```powershell
 .\venv\Scripts\Activate.ps1
-5️⃣ Install dependencies
+```
+
+### 5️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-6️⃣ Apply migrations
+```
+
+### 6️⃣ Apply Migrations
+
+```bash
 python manage.py migrate
-7️⃣ Start the development server
+```
+
+### 7️⃣ Start the Development Server
+
+```bash
 python manage.py runserver
+```
 
 The backend will run at:
 
+```text
 http://127.0.0.1:8000/
-📡 API Connection
+```
 
-The React frontend connects to the Django API using Axios.
+---
 
-Example frontend configuration:
+## 📡 API Connection
 
+The React frontend connects to the Django API using **Axios**.
+
+### Example Frontend Configuration
+
+```javascript
 import axios from "axios";
 
 const api = axios.create({
@@ -219,87 +292,138 @@ const api = axios.create({
 });
 
 export default api;
+```
 
-Example request:
+### Example Request
 
+```javascript
 const response = await api.get("courses/");
-🌐 CORS
+```
+
+---
+
+## 🌐 CORS
 
 CORS is configured so that the React development server can communicate with the Django backend.
 
-The development frontend commonly runs on:
+### Development URLs
 
+**React Frontend**
+
+```text
 http://localhost:3000
+```
 
-The Django backend runs on:
+**Django Backend**
 
+```text
 http://127.0.0.1:8000
-🗄️ Database
+```
 
-The project currently uses SQLite for development.
+---
 
-Database file:
+## 🗄️ Database
 
+The project currently uses **SQLite** for development.
+
+### Database File
+
+```text
 db.sqlite3
+```
 
-The local database is excluded from Git using .gitignore.
+The local database is excluded from Git using `.gitignore`.
 
-🌱 Development Status
-✅ Django project setup
-✅ Learning app setup
-✅ Django REST Framework setup
-✅ CORS configuration
-✅ Course model
-✅ Course serializer
-✅ Course ViewSet
-✅ API router
-✅ Course CRUD API
-✅ Sample course data
-✅ React → Django Courses connection
+---
 
-🔄 Module API
-⬜ Notes API
-⬜ Unlock Request API
-⬜ JWT Authentication
-⬜ Role-based API permissions
-⬜ API filtering
-⬜ API pagination
-🗺️ Future Backend Work
-🔐 JWT Authentication
-👥 User & Role Management
-📚 Course API
-🧩 Module API
-📝 Notes API
-🔓 Unlock Request API
-🔎 Search & Filtering
-📄 Pagination
-🛡️ Role-based Permissions
-📊 Dashboard Analytics API
-⚛️ Frontend
+## 🌱 Development Status
+
+### Completed
+
+* ✅ Django project setup
+* ✅ Learning app setup
+* ✅ Django REST Framework setup
+* ✅ CORS configuration
+* ✅ Course model
+* ✅ Course serializer
+* ✅ Course ViewSet
+* ✅ API router
+* ✅ Course CRUD API
+* ✅ Sample course data
+* ✅ React → Django Courses connection
+
+### In Progress
+
+* 🔄 Module API
+
+### Planned
+
+* ⬜ Notes API
+* ⬜ Unlock Request API
+* ⬜ JWT Authentication
+* ⬜ Role-based API permissions
+* ⬜ API filtering
+* ⬜ API pagination
+
+---
+
+## 🗺️ Future Backend Work
+
+* 🔐 JWT Authentication
+* 👥 User & Role Management
+* 📚 Course API
+* 🧩 Module API
+* 📝 Notes API
+* 🔓 Unlock Request API
+* 🔎 Search & Filtering
+* 📄 Pagination
+* 🛡️ Role-based Permissions
+* 📊 Dashboard Analytics API
+
+---
+
+## ⚛️ Frontend
 
 The React frontend for this project is maintained separately.
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/⚛️%20Smart%20Learning%20Frontend-View%20Repository-866BE8?style=for-the-badge" alt="Frontend Repository" />
+<img
+src="https://img.shields.io/badge/⚛️%20Smart%20Learning%20Frontend-View%20Repository-866BE8?style=for-the-badge"
+alt="Frontend Repository"
+/>
 
 <br><br>
 
-🔗 Smart Learning Frontend Repository
+🔗 **Smart Learning Frontend Repository**
 
 </div>
-🔗 Project Repositories
+
+---
+
+## 🔗 Project Repositories
+
 <div align="center">
-🐍 Backend
 
-smart-learning-backend
+### 🐍 Backend
 
-⚛️ Frontend
+**smart-learning-backend**
 
-smart-learning-frontend
+<br>
+
+### ⚛️ Frontend
+
+**smart-learning-frontend**
 
 </div>
-💜 Full-Stack Connection
+
+---
+
+## 💜 Full-Stack Connection
+
+<div align="center">
+
+```text
           ⚛️ REACT
              │
              │ Axios
@@ -311,20 +435,33 @@ smart-learning-frontend
              │
              ▼
         🗄️ SQLITE DB
+```
+
+</div>
+
+---
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=866BE8&center=true&vCenter=true&width=700&lines=Learn+%F0%9F%8C%B8;Build+%F0%9F%92%9C;Connect+%E2%9C%A8;Grow+%F0%9F%9A%80" alt="Footer Animation" />
+<img
+src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=866BE8&center=true&vCenter=true&width=700&lines=Learn+%F0%9F%8C%B8;Build+%F0%9F%92%9C;Connect+%E2%9C%A8;Grow+%F0%9F%9A%80"
+alt="Footer Animation"
+/>
 
 <br><br>
 
-🌷 Made with Django, code, and a little purple magic. 💜
+🌷 **Made with Django, code, and a little purple magic. 💜**
 
 <br><br>
 
-⭐ Thanks for visiting Smart Learning Backend!
+⭐ **Thanks for visiting Smart Learning Backend!**
 
 <br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=120&section=footer&animation=fadeIn" width="100%" alt="Footer" />
+<img
+src="https://capsule-render.vercel.app/api?type=waving&color=0:866BE8,50:AC86E9,100:D95DF8&height=120&section=footer&animation=fadeIn"
+width="100%"
+alt="Footer"
+/>
 
-</div> ```
+</div>
