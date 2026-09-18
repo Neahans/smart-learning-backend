@@ -101,42 +101,52 @@ The backend is being developed using **Django REST Framework (DRF)** to provide 
 ```
 </div>
 
-📚 Current API
-Courses API
+```text
+    📚 Current API
+    Courses API
+    
+    The current backend provides a Courses API through Django REST Framework.
+    
+    Endpoint
+    http://127.0.0.1:8000/api/courses/
+    Available Operations
+    Method	Endpoint	Description
+    GET	/api/courses/	List all courses
+    POST	/api/courses/	Create a course
+    GET	/api/courses/<id>/	Retrieve a course
+    PUT	/api/courses/<id>/	Update a course
+    PATCH	/api/courses/<id>/	Partially update a course
+    DELETE	/api/courses/<id>/	Delete a course
 
-The current backend provides a Courses API through Django REST Framework.
+```
+---
 
-Endpoint
-http://127.0.0.1:8000/api/courses/
-Available Operations
-Method	Endpoint	Description
-GET	/api/courses/	List all courses
-POST	/api/courses/	Create a course
-GET	/api/courses/<id>/	Retrieve a course
-PUT	/api/courses/<id>/	Update a course
-PATCH	/api/courses/<id>/	Partially update a course
-DELETE	/api/courses/<id>/	Delete a course
-🧩 Course Model
+#🧩 Course Model
+```text
+    The current Course model contains:
+    
+    title
+    description
+    instructor
+    category
+    level
+    modules_count
+    students_count
+    progress
+    image
 
-The current Course model contains:
+```
+---
 
-title
-description
-instructor
-category
-level
-modules_count
-students_count
-progress
-image
-🛠️ Tech Stack
+#🛠️ Tech Stack
 <div align="center">
 Backend
 <img src="https://skillicons.dev/icons?i=python,django,sqlite" alt="Backend Technologies">
 
 <br><br>
+---
 
-Development Tools
+# Development Tools
 <img src="https://skillicons.dev/icons?i=git,github,vscode" alt="Development Tools"> </div>
 Technologies Used
 🐍 Python
@@ -146,7 +156,13 @@ Technologies Used
 🌐 django-cors-headers
 🔎 django-filter
 📡 REST APIs
-🏗️ Project Structure
+
+---
+
+
+#🏗️ Project Structure
+
+```text
 smart_learning/
 │
 ├── learning/
@@ -172,6 +188,8 @@ smart_learning/
 ├── manage.py
 ├── requirements.txt
 └── README.md
+
+```
 ⚙️ Setup
 1️⃣ Clone the Repository
 git clone https://github.com/Neahans/smart-learning-backend.git
@@ -273,24 +291,29 @@ The React frontend for this project is maintained separately.
 
 <br><br>
 
-🔗 Smart Learning Frontend Repository
-
-</div>
-🔗 Project Repositories
 <div align="center">
-🐍 Backend
 
-🔗 smart-learning-backend
+<a href="https://github.com/Neahans/smart-learning-frontend">
+
+<img src="https://img.shields.io/badge/⚛️%20Smart%20Learning%20Frontend-View%20Repository-866BE8?style=for-the-badge" alt="Smart Learning Frontend Repository" />
+
+</a>
 
 <br><br>
 
-⚛️ Frontend
-
-🔗 smart-learning-frontend
+🔗 **Smart Learning Frontend Repository**
 
 </div>
-💜 Full-Stack Connection
+
+---
+
+## 💜 Full-Stack Connection
+
+---
+
 <div align="center">
+
+```text
           ⚛️ REACT FRONTEND
                  │
                  │ Axios
@@ -302,7 +325,9 @@ The React frontend for this project is maintained separately.
                  │
                  ▼
             🗄️ SQLITE DB
+```
 </div>
+---
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&pause=1000&color=866BE8&center=true&vCenter=true&width=700&lines=Learn+%F0%9F%8C%B8;Build+%F0%9F%92%9C;Connect+%E2%9C%A8;Grow+%F0%9F%9A%80" alt="Footer Animation" />
